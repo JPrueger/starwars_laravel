@@ -2,13 +2,15 @@
 
 @section('container')
 
+    <h2>Here's a list of all Star Wars characters:</h2>
+
     <div class="wrapper_cards">
 
         @foreach($data['results'] as $person)
 
             {{-- {{printf($person['name'])}} --}}
             <div class="card">
-                <h2>{{ $person['name'] }}</h2>
+                <h3>{{ $person['name'] }}</h3>
                 <p>Height: {{ $person['height'] }}</p>
                 <p>Mass: {{ $person['mass'] }}</p>
                 <p>Hair Color: {{ $person['hair_color'] }}</p>
