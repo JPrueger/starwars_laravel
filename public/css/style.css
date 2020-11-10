@@ -4,3 +4,70 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+html {
+    font-size: 100%;
+    text-align: center;
+}
+
+
+.conainer {
+    padding: 30px 30px 0 30px;
+}
+
+
+/* General Text */
+
+h1 {
+    font-size: 7.5rem;
+    margin: 0 auto;
+    padding: 0 10rem 0 10rem;
+    line-height: 8rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem; 
+}
+
+/* Navbar */
+
+/* NAVBAR */
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    background-color: white;
+    height: 70px;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+a:hover {
+    color: #E73D4C;
+}
+
+ul > li {
+    margin-right: 100px;
+    list-style: none; 
+    transform: translateY(10px);
+}
+
+/* Icons */
+
+.icons_star_wars {
+    width: 25%;
+    margin-bottom: 3rem;
+}
