@@ -23,7 +23,7 @@
 
         </div>
 
-        <div>
+        {{-- <div>
             <svg class="icons_star_wars" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261.07 67.91">
                 <defs>
                     <style>
@@ -43,7 +43,7 @@
         
         <h1>Let's talk about Star Wars!</h1>
     
-        <p>Get all the information you need about every character. </p>
+        <p>Get all the information you need about every character. </p> --}}
 
     </body>
 </html>
